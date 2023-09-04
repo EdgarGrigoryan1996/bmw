@@ -1,0 +1,46 @@
+.about{
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+.about div{
+    flex-basis: 47%;
+}
+.imageBlock{
+    text-align: center;
+    position: relative;
+    background-image: url("../../../assets/images/aboutImage.webp");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+.imageBlock img{
+    max-width: 80%;
+    object-fit: contain;
+}
+.sertificate {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    left: 10%;
+    background: var(--secondColor);
+    bottom: -48px;
+    clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+}
+.sertificate svg{
+    font-size: 36px;
+    color: var(--black);
+}
+.contentBlock h2{
+    font-size: 52px;
+}
+.contentBlock p {
+    color: #999;
+    line-height: 2;
+}

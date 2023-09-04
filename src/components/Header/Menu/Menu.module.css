@@ -1,0 +1,21 @@
+.menuBlock{
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+}
+.navbar{
+    display: flex;
+}
+.navbar li a{
+    font-size: 16px;
+    display: inline-block;
+    padding: 15px 50px;
+    transition: 0.2s;
+}
+.navbar li:hover:not(.active){
+    background-color: #eee;
+}
+.active{
+    background-color: var(--secondColor);
+    color: #fff;
+}

@@ -1,0 +1,16 @@
+.topTitle{
+    color: var(--secondColor);
+    letter-spacing: 2px;
+    position: relative;
+    left: 30px;
+}
+.topTitle:after{
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -30px;
+    background: var(--secondColor);
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(45% 0%, 100% 0%, 55% 100%, 0% 100%);
+}

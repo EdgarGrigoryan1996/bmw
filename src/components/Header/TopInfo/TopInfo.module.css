@@ -1,0 +1,34 @@
+.topInfoWrapper{
+    display: flex;
+    justify-content: flex-end;
+    background: #eee;
+}
+.topInfoBlock{
+    color: var(--secondColor);
+    background-color: var(--black);
+    font-size: 24px;
+    padding: 15px;
+    width: 70%;
+    clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%);
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.info{
+    display: flex;
+
+}
+.item{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.item svg{
+    margin-right: 7px;
+}
+.item:not(:last-child){
+    border-right:1px solid var(--secondColor);
+    padding-right: 10px;
+}

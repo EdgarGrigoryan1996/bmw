@@ -1,0 +1,37 @@
+.header{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-grow: 0;
+}
+.header div {
+    flex-basis: 47%;
+}
+.carImageBlock img{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.topTitle h1{
+    font-size: 76px;
+    font-weight: 900;
+    white-space: pre-wrap;
+    color: var(--black);
+    letter-spacing: 1px;
+}
+.topTitle button{
+    text-transform: uppercase;
+    padding: 15px;
+    background: var(--secondColor);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    letter-spacing: 1px;
+}
+.topTitle button:hover{
+    background: var(--black);
+}
